@@ -1,6 +1,12 @@
-# TinySMPC 🛡️
+# TinySMPC
 
 A tiny library for [secure multi-party computation](https://en.wikipedia.org/wiki/Secure_multi-party_computation), in pure Python!
+
+This code uses beaver triples from the Pragmatic MPC book. To test it simply run:
+
+```bash
+$ python test.py
+```
 
 This code is intended for educational rather than practical purposes. It exposes a simple API, and the underlying implementation is written to be understandable and minimalistic. 
 
